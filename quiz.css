@@ -62,6 +62,11 @@ body{
     cursor: pointer;
     font-weight: 500;
     display: none;
+    transition: all 400ms;
+}
+#next-btn:hover{
+    padding: 8px 36px;
+    letter-spacing: 2px;
 }
 .correct{
     background: #9aeabc;
